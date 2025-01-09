@@ -7,44 +7,35 @@ const Paginator = require('../../../helpers/paginator');
 const { Log } = require('../../../utils/customLog');
 const { validationResult } = require('express-validator');
 const { generateCompanyCode } = require('../../../utils/generatedCompany');
-const { axios } = require('axios').defaults;
+const axios = require('axios');
 
 class CompanyController {
   static async retrieved(req, res) {
     let queryResult = null;
     let { page, size: limit, search } = req.query;
+    page = page ?? 1;
+    limit = limit ?? 10;
     const paging = new Paginator(page, limit);
     const offset = paging.getOffset();
 
     try {
-      // const api = axios.create({
-      //   baseURL: 'https://jsonplaceholder.typicode.com/posts',
-      //   headers: {
-      //     'Content-Type': 'application/json; charset=UTF-8',
-      //     'Cache-Control': 'no-cache',
-      //     Pragma: 'no-cache',
-      //     'X-Application-Name': 'app-name',
-      //     'X-Application-Version': 1,
-      //   },
-      // });
-      // let temp = api.get('');
-      let temp = axios({
-        method: 'get',
-        url: 'https://jsonplaceholder.typicode.com/posts',
-        responseType: 'stream',
-      }).then(function (response) {
-        response;
+      const response = await axios.get('https://jsonplaceholder.typicode.com/posts', {
+        headers: {
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
       });
 
-      // let template = {
-      //   count: queryResult.count,
-      //   rows: queryResult.rows.map((company) => ({
-      //     id: company.id,
-      //     name: company.name,
-      //   })),
-      // };
+      const data = response.data.slice(offset, offset + limit);
 
-      paging.setData(temp);
+      let template = {
+        count: response.data.length,
+        rows: data.map((item) => ({
+          id: item.id,
+          title: item.title,
+        })),
+      };
+
+      paging.setData(template);
       const resp = paging.getPaginator();
       return outputParser.success(req, res, 'Retrieved Json Success', resp);
     } catch (err) {
