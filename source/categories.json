@@ -1,0 +1,135 @@
+[
+      {
+        "id": 8,
+        "category_name": "Bahan Masakan",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695192810151.png",
+        "sort": 12,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 3,
+        "category_name": "Buah",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193038820.png",
+        "sort": 2,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 7,
+        "category_name": "Bumbu Masak",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193253727.png",
+        "sort": 13,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 9,
+        "category_name": "Cemilan",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193268154.png",
+        "sort": 15,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 2,
+        "category_name": "Daging",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695192999232.png",
+        "sort": 4,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 17,
+        "category_name": "Ibu & Anak",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193447349.png",
+        "sort": 16,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 13,
+        "category_name": "Kecap & Saus",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193392605.png",
+        "sort": 8,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 10,
+        "category_name": "Kopi & Teh",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193285467.png",
+        "sort": 7,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 15,
+        "category_name": "Kosmetik",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193420713.png",
+        "sort": 19,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 14,
+        "category_name": "Makan Instan",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193406868.png",
+        "sort": 6,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 12,
+        "category_name": "Minuman",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193377531.png",
+        "sort": 9,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 16,
+        "category_name": "Obatan",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193438252.png",
+        "sort": 10,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 19,
+        "category_name": "Perawatan Diri",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695192841749.png",
+        "sort": 18,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 18,
+        "category_name": "Perawatan Rumah",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193456751.png",
+        "sort": 17,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 6,
+        "category_name": "Produk Beku",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193226894.png",
+        "sort": 11,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 4,
+        "category_name": "Sayuran",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193107092.png",
+        "sort": 3,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 5,
+        "category_name": "Seafood",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193149942.png",
+        "sort": 5,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 1,
+        "category_name": "Sembako",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695192878399.png",
+        "sort": 1,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 11,
+        "category_name": "Susu & Sereal",
+        "image": "https://storage.googleapis.com/xenmo-dev/image_1695193360573.png",
+        "sort": 14,
+        "status": "ACTIVE"
+      }
+    ]
